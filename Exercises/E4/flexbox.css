@@ -23,6 +23,13 @@ header {
     padding-right: 20px;
 }
 
+/* Links in Header */
+.nav-links {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Links in Main */
 ul {
     list-style-type: none;
 }
@@ -36,6 +43,7 @@ a {
     text-decoration: none;
 }
 
+
 main {
     width: 700px;
     background: white;
@@ -43,11 +51,6 @@ main {
 
 .site-title {
     font-size: 36px;
-    font-weight: 600;
-}
-
-.nav-links {
-    font-size: 18px;
     font-weight: 600;
 }
 
@@ -79,6 +82,7 @@ main {
     margin: auto;
 }
 
+/* To make Heading 1 fit inside section properly */
 .section-1 {
     width: 700px;
     height: 277px;
@@ -98,6 +102,7 @@ h1 {
     padding-right: 134px;
 }
 
+/* CTA under h1 */
 .main-cta {
     font-size: 12px;
     font-weight: 700;
@@ -116,6 +121,7 @@ h1 {
     padding-top: 15px;
 }
 
+/* Copy Introducing Next Section */
 h2 {
     width: 700px;
     height: 113px;
@@ -128,6 +134,7 @@ h2 {
     border: 1px solid black;
 }
 
+/* Sub Headers and text */
 h3 {
     font-size: 22px;
     font-weight: 600;
@@ -157,6 +164,7 @@ h4 {
     font-weight: 600;
 }
 
+/* Paragraph in footer*/
 .footer-p {
     font-size: 10px;
     font-weight: 400;
@@ -164,17 +172,12 @@ h4 {
     height: 36px;
 }
 
-.bottom-links {
-    font-size: 12px;
-    font-weight: 600;
-    flex-direction: row;
-}
-
 .social-media {
     font-size: 14px;
     font-weight: 600;
 }
 
+/* Links in footer */
 tr {
     font-size: 12px;
     font-weight: 600;
