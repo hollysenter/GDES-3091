@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    color: #fcc010;
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 170px;
+    line-height: 180px;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 10s linear infinite;
+    display: inline-block;
+    padding-right: 65px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+h2 {
+    color: #1CB8D1;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.names {
+    color: #f4971b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.names:hover {
+    color: #cd2e55;
+    transform: scale(2);
+}
+
+/* Date */
+h4 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 21px;
+    padding-bottom: 7px;
+}
+
+/* .repeat {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding-left: 25px;
+
+} */
+
+/* CIT 103 link to campus map */
+.map {
+    color: #cd2e55;
+    transition: color 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.map:hover {
+    color: #f4971b;
+}
+
+p {
+    width: 433px;
+    height: 190px;
+    color: black;
+    font-family: "bilo", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: 0.5s;
+    text-align: left;
+}
+
+p:hover {
+    transform: scale(2);
+    background-color: white;
+}
+
+/* Differing size paragraphs */
+.p-prem {
+    width: 433px;
+    height: 137px;
+}
+
+.p-paul {
+    width: 433px;
+    height: 123px;
+}
+
+.p-nelly {
+    width: 433px;
+    height: 155px;
+}
+
+/* Book tickets */
+.rectangle {
+    width: 437px;
+    height: 33px;
+    flex-shrink: 0;
+    background: #44107a;
+    color: white;
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 7px;
+    text-align: center;
+    align-items: center;
+    padding-top: 7px;
+    transition: 0.5s;
+}
+
+.rectangle:hover {
+    background-color: #cd2e55;
+}
+
+/* Logo */
+img {
+    display: flex;
+    width: 700px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    padding-top: 50px;
+    padding-left: 100px;
+}

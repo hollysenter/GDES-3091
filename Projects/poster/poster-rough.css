@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    max-width: 1440px;
+    height: 1024px;
+    background: white;
+    font-family: Helvetica, sans-serif;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 68px;
+    padding-left: 20%;
+}
+
+h1 {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    writing-mode: vertical-rl;
+    padding-right: 200px;
+    padding-top: 200px;
+    transform: rotate(180deg);
+}
+
+h2 {
+    flex-shrink: 0;
+    color: #000;
+    text-align: left;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 200px;
+    padding-bottom: 0px;
+}
+
+.names {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-decoration: none;
+}
+
+h4 {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 21px;
+    padding-bottom: 7px;
+}
+
+.map {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 21px;
+    padding-bottom: 7px;
+    text-decoration: none;
+}
+
+p {
+    width: 433px;
+    height: 164px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.p-prem {
+    width: 433px;
+    height: 122px;
+    flex-shrink: 0;
+}
+
+.p-paul {
+    width: 433px;
+    height: 107px;
+    flex-shrink: 0;
+}
+
+.p-nelly {
+    width: 433px;
+    height: 135px;
+    flex-shrink: 0;
+}
+
+.rectangle {
+    width: 437px;
+    height: 33px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 7px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+img {
+    width: 171px;
+    height: 171px;
+    flex-shrink: 0;
+    top: 500px;
+    left: 25px;
+}
