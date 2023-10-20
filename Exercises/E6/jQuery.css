@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.no-width {
+    width: 0px !important;
+}
+
+div {
+    transition: all 0.5s;
+}
+
+h1 {
+    font-size: 5vw;
+    padding: 3vw;
+}
+
+.blocks {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+#textToFade {
+    font-size: 10em;
+    font-family: Georgia, 'Times New Roman', Times, serif color, black;
+}
+
+button {
+    font-size: 1vw;
+    font-family: Georgia, 'Times New Roman', Times, serif color, black;
+    width: 100vw;
+    height: 40px;
+    border: 2px solid black;
+}
