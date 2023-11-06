@@ -1,0 +1,89 @@
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Responsive text*/
+h1 {
+    font-size: clamp(80px, 10vw, 300px);
+}
+
+img {
+    display: none;
+}
+
+/*Adaptive layout */
+@media (max-width: 1350px) {
+    body {
+        background-image: url("Images/seinfeld.gif")
+    }
+
+    h1 {
+        background: -webkit-linear-gradient(45deg, #9C4F96, #FF6355, #FBA949, #FAE442, #8BD448, #2AA8F2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-image: url("Images/james.gif")
+    }
+
+    h1 {
+        background: -webkit-linear-gradient(45deg, #9C4F96, #FF6355, #FBA949, #FAE442, #8BD448, #2AA8F2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-image: url("Images/steve.gif")
+    }
+
+    h1 {
+        background: -webkit-linear-gradient(45deg, #9C4F96, #FF6355, #FBA949, #FAE442, #8BD448, #2AA8F2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media (max-width: 850px) {
+    body {
+        background-image: url("Images/kevinbacon.gif");
+    }
+
+    h1 {
+        background: -webkit-linear-gradient(45deg, #9C4F96, #FF6355, #FBA949, #FAE442, #8BD448, #2AA8F2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        background-image: url("Images/leo.gif");
+    }
+
+    h1 {
+        background: -webkit-linear-gradient(45deg, #9C4F96, #FF6355, #FBA949, #FAE442, #8BD448, #2AA8F2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        background-image: url("Images/pikachu.gif");
+    }
+
+    h1 {
+        background: -webkit-linear-gradient(45deg, #9C4F96, #FF6355, #FBA949, #FAE442, #8BD448, #2AA8F2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
