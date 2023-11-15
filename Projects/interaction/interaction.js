@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     });
 });
+
 //When a letter key, spacebar, enter key, number key are touched, remove the background image/titlepage
 document.addEventListener('keydown', function (event) {
     const isLetterOrNumberOrEnterOrSpace = (
@@ -56,6 +57,7 @@ document.addEventListener('keydown', function (event) {
 
     if (isLetterOrNumberOrEnterOrSpace) {
         document.body.style.backgroundImage = 'none';
+        document.body.style.backgroundColor = 'white';
     }
 });
 
