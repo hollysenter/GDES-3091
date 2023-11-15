@@ -56,8 +56,19 @@ document.addEventListener('keydown', function (event) {
     );
 
     if (isLetterOrNumberOrEnterOrSpace) {
-        document.body.style.backgroundImage = 'none';
-        document.body.style.backgroundColor = 'white';
+        const body = document.body;
+
+        // Fade-out effect
+        body.style.transition = 'background-image 1s ease-out, background-color 1s ease-out';
+
+        // Set the background image and color to 'none' and 'white'
+        body.style.backgroundImage = 'none';
+        body.style.backgroundColor = 'white';
+
+        // Remove the transition property after the fade-out is complete
+        setTimeout(() => {
+            body.style.transition = 'none';
+        }, 1000);
     }
 });
 

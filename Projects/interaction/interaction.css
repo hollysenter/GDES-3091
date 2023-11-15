@@ -34,9 +34,10 @@ img {
     height: 125px;
     object-fit: cover;
     border-radius: 5px;
+    padding-top: 1%;
 }
 
-/* Adding media queries for page to adapt to tablet and mobile devices */
+/* Adding media queries to adapt to different browser sizes/mobile */
 @media (max-width: 1600px) {
     .image {
         margin: 5px;
@@ -69,7 +70,7 @@ img {
 
     img {
         margin: 2px;
-        width: 20px;
+        width: 30px;
         height: 65px;
         object-fit: cover;
         border-radius: 5px;
