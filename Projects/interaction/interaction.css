@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    /* Title page */
+    background-image: url(https://i.ibb.co/5RrgHNB/architect-alphabet-sharper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Space bar */
+img {
+    margin: 5px;
+    width: 50px;
+    height: 95px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Keyboard Letter/Number Images */
+.image {
+    margin: 5px;
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: black, solid, 1px;
+}
