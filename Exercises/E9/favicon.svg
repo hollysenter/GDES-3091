@@ -1,0 +1,17 @@
+<svg width="325" height="325" viewBox="0 0 325 325" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="325" height="325" fill="#1E1E1E"/>
+<rect width="325" height="325" fill="white"/>
+<line x1="27" y1="289" x2="307" y2="289" stroke="black" stroke-width="10"/>
+<line x1="302" y1="294" x2="302" y2="101" stroke="black" stroke-width="10"/>
+<line x1="127" y1="249" x2="127" y2="147" stroke="black" stroke-width="10"/>
+<line x1="188" y1="249" x2="188" y2="147" stroke="black" stroke-width="10"/>
+<line x1="128" y1="200" x2="189" y2="200" stroke="black" stroke-width="10"/>
+<line x1="298" y1="106" x2="103" y2="106" stroke="black" stroke-width="10"/>
+<line x1="98.0004" y1="110.938" x2="98.988" y2="30.9383" stroke="black" stroke-width="10"/>
+<line x1="94" y1="32" x2="240" y2="32" stroke="black" stroke-width="10"/>
+<line x1="235" y1="31" x2="235" y2="61" stroke="black" stroke-width="10"/>
+<path d="M31 294L31 161" stroke="black" stroke-width="10"/>
+<line x1="5" y1="162" x2="57" y2="162" stroke="black" stroke-width="10"/>
+<path d="M220 197.5C220 231.466 192.466 259 158.5 259C124.534 259 97 231.466 97 197.5C97 163.534 124.534 136 158.5 136C192.466 136 220 163.534 220 197.5Z" stroke="black" stroke-width="10"/>
+<rect x="225" y="131" width="50" height="17" stroke="black" stroke-width="10"/>
+</svg>
