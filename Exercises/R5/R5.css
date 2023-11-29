@@ -1,0 +1,29 @@
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/680/964/non_2x/blank-billboard-for-copy-space-and-twilight-light-background-blank-illustration-vector.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    position: fixed;
+    padding-bottom: 15%;
+    font-size: 1.8vw;
+    max-width: 60%;
+}
+
+.goback {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 10px;
+    /* Adjust as needed */
+    display: inline-block;
+}
