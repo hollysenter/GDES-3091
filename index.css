@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+    overflow-y: auto;
+    /* Add vertical scrollbar if needed */
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: url('https://i.pinimg.com/originals/c1/bd/eb/c1bdeb7288b8e0c34787d927cf69e8be.png') center/contain no-repeat;
+    color: #FF0000;
+    /* Red text */
+    background-color: #000;
+    color: #FF0000;
+    /* Red text */
+    text-align: center;
+    padding: 10%;
+    font-size: 5em;
+    /* Responsive font size */
+}
+
+#categories {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.category {
+    color: #fff;
+    margin-bottom: 2%;
+}
+
+.movie-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.movies {
+    display: flex;
+    animation: scrollMovies 20s linear infinite;
+}
+
+.movie {
+    /* Let the items grow and shrink as needed, without any basis */
+    flex: 0 0 auto;
+    /* 16:9 aspect ratio */
+    width: 400px;
+    height: 226px;
+    background-color: #333;
+    background-size: contain;
+	margin-right: 2%;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.movie:hover {
+    transform: scale(1.1);
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: #fff;
+    display: none;
+}
+
+.movie:hover .play-button {
+    display: block;
+}
+
+@keyframes scrollMovies {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* Add more styling and animations as needed */
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 1.5em;
+    }
+
+    .movie {
+        width: 45%;
+        height: 30vw;
+        margin-right: 2%;
+    }
+}
