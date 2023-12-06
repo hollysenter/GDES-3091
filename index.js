@@ -59,11 +59,11 @@ SetImages("project", imageProjects);
 
 // Establish an array of URLS for the background images in the Readings scroll
 const imageReadings = [
-	'https://i.pinimg.com/originals/58/9c/dc/589cdc81a2d0cec767169883cb689755.png',
-	'https://i.pinimg.com/originals/f6/f1/4b/f6f14b9768ca44e978aae0628e9a001d.png',
-	'https://i.pinimg.com/originals/eb/cb/66/ebcb666ea5bd45d3074db836d58b141c.png',
-	'https://i.pinimg.com/originals/7f/22/b3/7f22b360e2d811b7957c2a5fa595445f.png',
-	'https://i.pinimg.com/originals/69/c8/06/69c8067a9907c4a04e1b63fa9e9b1a72.png'];
+	'https://i.pinimg.com/736x/e3/15/00/e31500e7f754aa12c3445f7c7787b358.jpg',
+	'https://i.pinimg.com/736x/09/cf/23/09cf23969a001032496202306bf5fe87.jpg',
+	'https://i.pinimg.com/736x/17/b5/4f/17b54f130d3f94cb2ccddf8785fc4cba.jpg',
+	'https://i.pinimg.com/736x/f8/7c/36/f87c361acec81d643825d364aa8b269d.jpg',
+	'https://i.pinimg.com/736x/4f/f4/61/4ff461183ffd7081f8c44995d17e7c7a.jpg'];
 // Set the background image of each div in the scroll
 SetImages("reading", imageReadings);
 
@@ -89,7 +89,6 @@ function SetImages(divName, imageArray) {
 			document.getElementById(divIndex).style.backgroundImage = "url(" + imageArray[index - 1] + ")";
 	}
 }
-
 
 
 
