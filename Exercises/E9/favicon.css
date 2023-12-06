@@ -1,0 +1,16 @@
+body {
+    font-family: "bebas-neue-pro", sans-serif;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+img {
+    max-width: 30%;
+}

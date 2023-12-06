@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "bebas-neue-pro", sans-serif;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.episodes {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    padding-right: 2%;
+}
+
+h1 {
+    font-size: 8vw;
+}
+
+a {
+    text-decoration: none;
+    font-size: 5vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a:hover {
+    color: red;
+}
+
+p {
+    font-size: 1.5vw;
+    font-family: "open-sans", sans-serif;
+    padding-top: 0;
+}
