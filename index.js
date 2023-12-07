@@ -52,7 +52,8 @@ const imageProjects = [
 	'https://i.pinimg.com/originals/7f/9b/f7/7f9bf7c953e0d34eae2c45492b8855ba.png',
 	'https://i.pinimg.com/originals/df/80/78/df80782ac53b629a0e6db498cdff825a.png',
 	'https://i.pinimg.com/originals/fc/1e/78/fc1e7855dfe30e8e4e082aa089bdd184.png',
-	'https://i.pinimg.com/originals/ef/06/84/ef0684ee0c82eb2a2ccf8c6118bd72ec.png'];
+	'https://i.pinimg.com/originals/ef/06/84/ef0684ee0c82eb2a2ccf8c6118bd72ec.png',
+	'https://i.pinimg.com/736x/c3/b6/d1/c3b6d14cb4f84b144db7fa1f391cab9a.jpg'];
 
 // Set the background image of each div in the scroll
 SetImages("project", imageProjects);
